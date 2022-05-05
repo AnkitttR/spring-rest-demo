@@ -73,7 +73,7 @@ public class StudentRestController {
 		
 		// return ResponseEntity
 		
-		return null;
+		return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
 	}
 	
 	
