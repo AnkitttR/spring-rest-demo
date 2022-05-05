@@ -61,8 +61,13 @@ public class StudentRestController {
 	
 	@ExceptionHandler
 	public ResponseEntity<StudentErrorResponse> handleException(StudentNotFoundException exc) {
-		return null;
 		
+		
+		// create a StudentErrorResponse
+		
+		// return ResponseEntity
+		
+		return null;
 	}
 	
 	
