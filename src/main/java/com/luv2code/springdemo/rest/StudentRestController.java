@@ -19,7 +19,7 @@ public class StudentRestController {
 	@PostConstruct
 	public void loadData() {
 		
-		List<Student> theStudents = new ArrayList<>();
+		theStudents = new ArrayList<>();
 		
 		theStudents.add(new Student("Poornima","Patel"));
 		theStudents.add(new Student("Mario","Rossi"));
