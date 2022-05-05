@@ -44,7 +44,8 @@ public class StudentRestController {
 	public Student getStudent(@PathVariable int studentId) {
 		
 		// just index into the list ... keep it simple for now
-		return null;
+		
+		return theStudents.get(studentId);
 		
 	}
 	
