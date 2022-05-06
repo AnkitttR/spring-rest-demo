@@ -83,7 +83,7 @@ public class StudentRestController {
 		// create a StudentErrorResponse
 				StudentErrorResponse error = new StudentErrorResponse();
 				
-				error.setStatus(HttpStatus.NOT_FOUND.value());
+				error.setStatus(HttpStatus.BAD_REQUEST.value());
 				error.setMessage(exc.getMessage());
 				error.setTimeStamp(System.currentTimeMillis());
 				
