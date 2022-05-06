@@ -76,7 +76,12 @@ public class StudentRestController {
 		return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
 	}
 	
-	
+	// add another exception handler ... to catch any exception (catch all)
+	@ExceptionHandler
+	public ResponseEntity<StudentErrorResponse>	handleException (Exception exc){
+		return null;
+		
+	}
 	
 	
 	
